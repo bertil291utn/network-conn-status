@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/network-status/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/network-status/static/js/main.f500e00f.chunk.js",
-    "main.js.map": "/network-status/static/js/main.f500e00f.chunk.js.map",
-    "runtime-main.js": "/network-status/static/js/runtime-main.b8adffb4.js",
-    "runtime-main.js.map": "/network-status/static/js/runtime-main.b8adffb4.js.map",
-    "static/js/2.0d692779.chunk.js": "/network-status/static/js/2.0d692779.chunk.js",
-    "static/js/2.0d692779.chunk.js.map": "/network-status/static/js/2.0d692779.chunk.js.map",
-    "static/js/3.adb14271.chunk.js": "/network-status/static/js/3.adb14271.chunk.js",
-    "static/js/3.adb14271.chunk.js.map": "/network-status/static/js/3.adb14271.chunk.js.map",
-    "index.html": "/network-status/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/network-status/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0d692779.chunk.js.LICENSE.txt": "/network-status/static/js/2.0d692779.chunk.js.LICENSE.txt"
+    "main.css": "/network-conn-status/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/network-conn-status/static/js/main.90a516fa.chunk.js",
+    "main.js.map": "/network-conn-status/static/js/main.90a516fa.chunk.js.map",
+    "runtime-main.js": "/network-conn-status/static/js/runtime-main.35581c2d.js",
+    "runtime-main.js.map": "/network-conn-status/static/js/runtime-main.35581c2d.js.map",
+    "static/js/2.0d692779.chunk.js": "/network-conn-status/static/js/2.0d692779.chunk.js",
+    "static/js/2.0d692779.chunk.js.map": "/network-conn-status/static/js/2.0d692779.chunk.js.map",
+    "static/js/3.adb14271.chunk.js": "/network-conn-status/static/js/3.adb14271.chunk.js",
+    "static/js/3.adb14271.chunk.js.map": "/network-conn-status/static/js/3.adb14271.chunk.js.map",
+    "index.html": "/network-conn-status/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/network-conn-status/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0d692779.chunk.js.LICENSE.txt": "/network-conn-status/static/js/2.0d692779.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8adffb4.js",
+    "static/js/runtime-main.35581c2d.js",
     "static/js/2.0d692779.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.f500e00f.chunk.js"
+    "static/js/main.90a516fa.chunk.js"
   ]
 }
