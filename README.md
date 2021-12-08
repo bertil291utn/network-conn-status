@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# SubsocialId network status 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An status page for connecting to networks. 
+For sub.id there are many connections to different networks and in order to always be aware of which ones work, we are displaying  the status of connections.
+
+![image](https://user-images.githubusercontent.com/24902525/145248788-12710c0a-4570-45fb-8da2-84611b9282f8.png)
+
+## Stack
+- React JS
+- [MUI Components](https://mui.com/) along with [emotion](https://emotion.sh/docs/introduction)
+
+
 
 ## Available Scripts
 

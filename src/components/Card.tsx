@@ -6,7 +6,7 @@ export function NetworkCard({ n }: any) {
   const _network: Network = n;
   return (
     <CardsStyle >
-      <Mui.Card sx={{ maxWidth: 345 }}>
+      <Mui.Card>
         <Mui.CardHeader
           avatar={
             <Mui.Avatar src={`${process.env.REACT_APP_NETWORK_API_URL}/icons/${_network.icon}`}

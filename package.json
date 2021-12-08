@@ -1,6 +1,6 @@
 {
   "name": "network-conn-status",
-  "homepage": "https://bertil291utn.github.io/network-status/",
+  "homepage": "https://bertil291utn.github.io/network-conn-status/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
