@@ -1,5 +1,6 @@
 {
   "name": "network-conn-status",
+  "homepage": "https://bertil291utn.github.io/network-status/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "set PORT=3006 &&  react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
