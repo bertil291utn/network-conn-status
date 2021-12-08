@@ -1,7 +1,9 @@
 export interface Network {
-  tokenSymbol: String[];
+  tokenSymbol: string[];
   tokenDecimals: Number[];
   ss58Format: Number;
-  icon: String;
-  name: String;
+  icon: string;
+  name: string;
+  numeration: Number;
+  network: boolean;
 }

@@ -20,7 +20,7 @@ function App() {
         .map(async (e: Network, index: number) => {
           const { data } = await axios(`${process.env.REACT_APP_NETWORK_API_URL}/api/v1/check/${e.name.toLowerCase()}`)
 
-          return { ...e, numeration: index + 1, network: data ? 'green' : 'red' }
+          return { ...e, numeration: index + 1, network: data }
         }))
       setNetwork(_network)
     }

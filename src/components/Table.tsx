@@ -67,11 +67,10 @@ export function TableNetwork({ data }: any) {
         <Mui.TableBody>
           {_data
             .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-            .map((row: any) => {
+            .map((row: Network) => {
               return (
                 <Mui.TableRow hover role="checkbox" tabIndex={-1} key={row.name}>
                   {columns.map((column) => {
-                    const value = row[column.id];
                     return (
                       <Mui.TableCell key={column.id} align={column.align}>
                         {column.id === 'name' &&
@@ -84,7 +83,7 @@ export function TableNetwork({ data }: any) {
                           )}
                         {column.id === 'net' &&
                           (
-                            <span>{row.network}</span>
+                            <Mui.Chip label={`${row.network ? 'Connected' : 'Disconnected'}`} color={`${row.network ? 'success' : 'error'}`} />
                           )}
                         {column.id === 'numeration' &&
                           (
