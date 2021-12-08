@@ -1,37 +1,8 @@
 import { useState } from 'react'
 import * as Mui from '@mui/material';
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-import { styled as styledMui } from '@mui/material/styles';
-import styled from '@emotion/styled'
 import { Network } from '../models/Network';
+import { NameCell, Label, StyledTableCell } from '../styles';
 
-const StyledTableCell = styledMui(TableCell)(({ theme }) => ({
-  [`&.${tableCellClasses.head}`]: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white,
-  },
-  [`&.${tableCellClasses.body}`]: {
-    fontSize: 14,
-  },
-}));
-
-type LabelProps = {
-  muted?: boolean,
-  bold?: boolean,
-
-}
-
-const NameCell = styled.div`
-  display:flex;
-  align-items: center;
-  width:30%;
-  justify-content: space-between;
-`
-const Label = styled.p`
-  color:${(props: LabelProps) => props.muted ? 'gray' : ''};
-  font-weight:${(props: LabelProps) => props.bold ? 'bold' : ''};
-
-`
 
 
 export function TableNetwork({ data }: any) {

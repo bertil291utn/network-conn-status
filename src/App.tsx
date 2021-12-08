@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import * as Mui from '@mui/material';
 import { Network } from './models/Network'
 import { TableNetwork } from './components/Table';
+import { Centered } from './styles';
 
 function App() {
   const initNetwork: Network[] = [];
@@ -50,8 +52,13 @@ function App() {
     <div>
       <TableNetwork data={network} />
     </div>
-    :
-    <p>Loading ...</p>
+    : (
+      <Centered>
+        <Mui.Box>
+          <Mui.CircularProgress />
+        </Mui.Box>
+      </Centered>
+    )
 
   );
 }
