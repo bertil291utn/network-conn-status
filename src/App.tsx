@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import * as Mui from '@mui/material';
 import { Network } from './models/Network'
-import { TableNetwork } from './components/Table';
-import { Centered } from './styles';
+import { Centered, CardsContainer, H2Title } from './styles';
+import { NetworkCard } from './components/Card';
 
 function App() {
   const initNetwork: Network[] = [];
@@ -48,10 +48,14 @@ function App() {
 
 
   return (network.length > 0
-    ?
-    <div>
-      <TableNetwork data={network} />
-    </div>
+    ? <>
+      <H2Title>SubsocialId networks status</H2Title>
+      <CardsContainer padding='2rem'>
+        {network.map((n: any) => (
+          <NetworkCard n={n} key={n.name} />
+        ))}
+      </CardsContainer>
+    </>
     : (
       <Centered>
         <Mui.Box>
